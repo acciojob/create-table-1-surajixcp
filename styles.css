@@ -1,1 +1,19 @@
 /*  your css code here. If applicable */
+#sampleTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#sampleTable, #sampleTable th, #sampleTable td {
+    border: 1px solid black;
+}
+
+#sampleTable th, #sampleTable td {
+    padding: 8px;
+    text-align: left;
+}
+
+#sampleTable th {
+    background-color: #f2f2f2;
+}
+
